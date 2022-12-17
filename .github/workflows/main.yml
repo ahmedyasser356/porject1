@@ -8,11 +8,11 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
 
     steps:
       - name: "printing name "
         run: echo Ahmed
-        
+
       - name: "all contents"
         run: ls  
